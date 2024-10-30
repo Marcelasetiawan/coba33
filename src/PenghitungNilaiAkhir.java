@@ -1,4 +1,11 @@
 import java.util.Scanner;
+/**
+ * @author Marcela
+ * @Version 2.1
+ * @since
+ */
+
+
 
 /** //Program PenghitungNilaiAkhir ini digunakan untuk menghitung nilai akhir mata kuliah
  *  //berdasarkan bobot nilai tugas, UTS, dan UAS.
@@ -23,6 +30,7 @@ public class PenghitungNilaiAkhir {
 
     /** //Menampilkan nilai akhir dan grade berdasarkan nilai akhir.
      *
+     * @see #displayNilaiAkhir(double)
      * @param nilaiAkhir //nilai akhir hasil perhitungan bobot nilai tugas, UTS, dan UAS
      */
     private static void displayNilaiAkhir(double nilaiAkhir) {
